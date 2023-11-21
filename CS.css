@@ -1,0 +1,126 @@
+  @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+    * {
+      margin: 0;
+      padding: 0;
+  box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+      background-image:linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);;
+      height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .Kushagra {
+      width: 60%;
+    }
+
+    @media (max-width:768px) {
+      .Kushagra {
+        width: 90%;
+      }
+    }
+
+    .Kushagra h1 {
+      color: white;
+      font-size: 50px;
+      padding: 10px 0;
+      text-align: center;
+      border-radius: 30px 30px 0px 0px;
+      background-image: linear-gradient(red,rgb(0, 0, 255));
+      opacity: 0.8;
+      font-family: "Rajdhani", sans-serif;
+    }
+
+    .Kushagra form {
+      display: flex;
+      width: 100%;
+      background-color:#33df19;
+    }
+
+    .Kushagra form input {
+      
+      border: none;
+      background-color: #fefeff;
+      font-size: 18px;
+      color: rgb(5, 0, 0);
+      padding: 10px;
+      width: 90%;
+    }
+    .Kushagra form input:hover{
+      background-color: #07b5efe2;
+    }
+
+    .Kushagra form button {
+      border: none;
+      color: rgb(20, 2, 2);
+      background-color: #08f6c6;
+      font-size: 25px;
+      font-weight: 600;
+      height: 42px;
+      width: 10%;
+    }
+    .Kushagra form button:hover{
+      background-color: #53caf1e2;
+    }
+
+    .Kushagra ul {
+      list-style: none;
+      color: #fffdfd;
+      padding: 0;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Kushagra ul li {
+      padding: 10px;
+      background-color: #ff0909;
+      border-bottom: 1px solid #3a4674;
+    }
+
+    .check {
+      width: 0.9em;
+      height: 0.8em;
+      cursor: pointer;
+      border-radius: 50%;
+      background-color: white;
+      border: 1px solid rgb(255, 255, 255);
+      
+    }
+
+    .check:checked {
+      background-color: #1dd2af;
+    }
+
+    .task {
+      font-size: 18px;
+      padding: 0 10px;
+      width: fit-content;
+      background: transparent;
+      border: none;
+      color: #fff;
+    }
+
+    .task:focus {
+      outline: none;
+    }
+
+    .Kushagra ul li i {
+      float: right;
+      cursor: pointer;
+    }
+
+    .Kushagra ul li i:hover {
+      color: #5258ff;
+    }
+
+    .completed {
+      
+      color: rgba(0, 0, 0, 0.8);
+      text-decoration: line-through;
+      font-size:20px;
+    }
